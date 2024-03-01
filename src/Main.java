@@ -10,8 +10,7 @@ public class Main {
         while (sum < finalSum) {
             sum = (sum + monthlyAddition) * interest;
             months++;
-            System.out.printf("Месяц %d, сумма накоплений равна %.2f рублей", months, sum);
-            System.out.println();
+            System.out.printf("Месяц %d, сумма накоплений равна %.2f рублей%n", months, sum);
         }
 
         // Задача 2
